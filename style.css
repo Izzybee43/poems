@@ -18,6 +18,8 @@ body {
 .box{
 	height: calc (100vh*2/3);
 	width: 25%;
+	color: white;
+	font-family:'Coming Soon', cursive;
 }
 
 ul {
