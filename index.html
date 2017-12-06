@@ -20,29 +20,37 @@
  <img src="Title.jpg" alt="Girl in a jacket" style="width:100%;height:100%;">
 </div>
 	<div class= "two ">
-		<div class= "box " Id="one" onclick="showText(this) >
+		<div class= "box " Id="one" onclick="showText(this) ">
 
 		<img src="download.jfif" alt="Girl in a jacket" style="width:100%;height:100%;">
 </div>
-		<div class= "box"> <img src="hand.jpg" alt="Girl in a jacket" style="width:100%;height:100%;"> </div>
+		<div class= "box" > <img src="hand.jpg" alt="Girl in a jacket" style="width:100%;height:100%;"> </div>
 		<div class= "box ">  <img src="walking-away.jpg" alt="Girl in a jacket" style="width:100%;height:100%;"> </div>
 		<div class= "box ">  <img src="people.jpg" alt="Girl in a jacket" style="width:100%;height:100%;">
 		</div>
 	</div>
 </div>
 <script>
-
 function resetAll(){
 
 }
 
 function showText(elem){
-	elem.innerHTML = "When I'm with you the world stop and Time is stands still We stand nose to nose looking into each others eyes This in Im remind you are mine And I am yours So take me Hold me And never let me go Cause I never want to let you go I will be here for you until the end of time Thats how long I hope you stay mine";
+	elem.innerHTML = "When I'm with you the world stop and time is stands still, we stand nose to nose looking into each others eyes,this in i'm remind you are mine, and i am yours, so take me, hold me, and never let me go,cause i never want to let you go,i will be here for you until the end of time,that's how long i hope you stay mine.";
+}
+function showText(e){
+	elem.innerHTML = "";
 }
 
 function toggleBlueBackground(elem){
 	document.getElementById("one").classList.remove("blue");
 }
+function toggleBlueBackground(elem){
+	document.getElementById("two").classList.remove("blue");
+}
+
+
+
 
 </script>
 </body>
