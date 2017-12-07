@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+<script src="Script.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+<head>
+</head>
+<body>
+
+</nav>
+<div class= "body">
+ <div class= "title black">
+<ul>
+  <li><a class="active" href="#idex">Home</a></li>
+  <li><a href="#P1">Poem 1</a></li>
+  <li><a href="#P2">Poem 2</a></li>
+  <li><a href="#P3">Poem 3</a></li>
+   <li><a href="#P4">Poem 4</a></li>
+</ul>
+ <img src="Title.jpg" alt="Girl in a jacket" style="width:100%;height:100%;">
+</div>
+	<div class= "two ">
+<p>When I'm with you the world stop and</p> 
+<p>Time is stands still,</p>
+<p>We stand nose to nose looking into each others eyes,</p>
+<p>This in I'm remind you are mine,</p>
+<p>And I am yours,</p>
+<p>So take me,</p>
+<p>Hold me,</p>
+<p>And never let me go,</p>
+<p>Cause I never want to let you go,</p>
+<p>I will be here for you until the end of time,</p>
+<p>That's how long I hope you stay mine.</p>
+
+</div>
+
+</body>
+</html>
