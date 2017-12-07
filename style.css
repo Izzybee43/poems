@@ -20,6 +20,9 @@ body {
 	width: 25%;
 	color: white;
 	font-family:'Coming Soon', cursive;
+	font-size: 20px;
+	background-color: #99B2CC;
+	
 }
 
 ul {
@@ -46,6 +49,8 @@ li a {
 li a:hover {
     background-color: #99B2CC;
 }
+
+
 
 .gray {background-color:#78898A;}
 .black {background-color: #000000;}

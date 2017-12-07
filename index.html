@@ -24,9 +24,9 @@
 
 		<img src="download.jfif" alt="Girl in a jacket" style="width:100%;height:100%;">
 </div>
-		<div class= "box" > <img src="hand.jpg" alt="Girl in a jacket" style="width:100%;height:100%;"> </div>
-		<div class= "box ">  <img src="walking-away.jpg" alt="Girl in a jacket" style="width:100%;height:100%;"> </div>
-		<div class= "box ">  <img src="people.jpg" alt="Girl in a jacket" style="width:100%;height:100%;">
+		<div class= "box" Id="two" onclick="showWords(this) "> <img src="hand.jpg" alt="Girl in a jacket" style="width:100%;height:100%;"> </div>
+		<div class= "box" ID="three" onclick="showPoem(this)">  <img src="walking-away.jpg" alt="Girl in a jacket" style="width:100%;height:100%;"> </div>
+		<div class= "box" ID="four" onclick="showPoems(this)">  <img src="people.jpg" alt="Girl in a jacket" style="width:100%;height:100%;">
 		</div>
 	</div>
 </div>
@@ -38,18 +38,28 @@ function resetAll(){
 function showText(elem){
 	elem.innerHTML = "When I'm with you the world stop and time is stands still, we stand nose to nose looking into each others eyes,this in i'm remind you are mine, and i am yours, so take me, hold me, and never let me go,cause i never want to let you go,i will be here for you until the end of time,that's how long i hope you stay mine.";
 }
-function showText(e){
-	elem.innerHTML = "";
+function showWords(e){
+	e.innerHTML = "I watch him walk away,and the tears start to flow down my face,i've lost what was once mine, all i want to do is go back to the good old times,us at the fair, when our laughter filled the air,and all we did was dance and stare, us at the ice rink, yep our laughs were in sync, and all I could think was,i'm glad this is all minebut now hes gone,his sent still lingers sweet and strong,i guess its back to singing those sad songs.";
+}
+function showPoem(el){
+	el.innerHTML = "Back to being a walking shell of what's supposed to be a human,the person who once made me happy walked away,i miss him of course I do,i sit by my phone and wait for a good morning babe,but theres nothing,just memorise of what used to be";
+}
+function showPoems(ele){
+	ele.innerHTML = "Your eyes are like fresh baked cookies,your hugs are like a fuzzy blanket on a cold winter night,each of your freckles are like a star in the galaxy,your smile is like the sun shining through the windows in the mornings,your voice is like my favorite song on repeat,seeing you every day is the best part of my day,when you say nice things you leave me speechless";
 }
 
 function toggleBlueBackground(elem){
 	document.getElementById("one").classList.remove("blue");
 }
-function toggleBlueBackground(elem){
+function toggleBlueBackground(e){
 	document.getElementById("two").classList.remove("blue");
 }
-
-
+function toggleBlueBackground(el){
+	document.getElementById("three").classList.remove("blue");
+}
+function toggleBlueBackground(ele){
+	document.getElementById("four").classList.remove("blue");
+}
 
 
 </script>
