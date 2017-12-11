@@ -78,7 +78,7 @@ li a:hover {
 }
 
 .box{
-	height: calc (100vh*2/3);
+	height: 50%;
 	width: 50%;
 }
 }
